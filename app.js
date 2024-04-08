@@ -38,7 +38,7 @@ function eventListeners() {
     if (x.target.className === "fa fa-remove") {
       x.target.parentElement.parentElement.remove();
       deletetofromstorage(x.target.parentElement.parentElement.textContent);
-      showAlert("Başarıyla silindi");
+      showAlert("danger", "Başarıyla silindi");
     }
   });
 
